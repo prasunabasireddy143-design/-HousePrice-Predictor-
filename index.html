@@ -1,0 +1,12 @@
+<form action="/predict" method="POST">
+  <label>Total Sqft:</label>
+  <input type="number" name="sqft" required>
+
+  <label>BHK:</label>
+  <input type="number" name="bhk" required min="1">
+
+  <label>Bathrooms:</label>
+  <input type="number" name="bath" required min="1">
+
+  <button type="submit">Predict Price</button>
+</form>
